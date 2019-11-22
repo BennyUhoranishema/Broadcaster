@@ -1,0 +1,14 @@
+/*FOOTER*/
+
+.footer .footer-bottom {
+    background: grey;
+    color: #000;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
+
