@@ -1,5 +1,4 @@
 /*FOOTER*/
-
 .footer .footer-bottom {
     background: grey;
     color: #000;
@@ -10,5 +9,8 @@
     bottom: 0px;
     left: 0px;
     padding-top: 20px;
+}
+.footer{
+    margin-bottom: 0%;
 }
 
