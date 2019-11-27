@@ -19,12 +19,12 @@
 <body>
     <header>
 <div class="logo">
-   <h1 class="logo-text"><span>Quick</span>Transfer<span>News</span></h1>
+   <h1 class="logo-text"><span>Broadcaster</span></h1>
 </div>
 <i class="fa fa-bars menu-toggle"></i>
 <ul class="nav">
     <li><a href="main.html">Home</a></li>
-    <li><a href="redflag.html" class="active">Red Frag</a></li>
+    <li><a href="redflag.html">Red Frag</a></li>
     <li><a href="intervation.html">Intervation</a></li>
     <li>
         <a href="viewall.html">
@@ -50,6 +50,7 @@
         </div>
     </div>
     <div class="column2_redflag" style="background-color:#bbb;">
+        <h2> All Resolved Records</h2>
         <table id="allRedflags">
                     <tr>
                       <th>NO</th>
@@ -59,45 +60,52 @@
                     </tr>
                     <tr>
                       <td>1</td>
-                      <td>Benny Uhoranishema</td>
+                      <td><a href="article.html" class="link"> Benny Uhoranishema</a></td>
                       <td>Resolved</td>
-                      <td><span><a href="#"><i class="fa fa-edit"></i></a> | <a href="#"><i class="fa fa-trash"></i></a></span></td>
+                      <td><span><a href="addnew.html"><i class="fa fa-edit"></i></a> | <a id="delete" onclick="actions();"href="#"><i class="fa fa-trash"></i></a></span></td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Benny Uhoranishema</td>
+                        <td><a href="article.html" class="link"> Benny Uhoranishema</a></td>
                         <td>Resolved</td>
-                      <td><span><a href="#"><i class="fa fa-edit"></i></a> | <a href="#"><i class="fa fa-trash"></i></a></span></td>
+                      <td><span><a href="addnew.html"><i class="fa fa-edit"></i></a> | <a id="delete" onclick="actions();"href="#"><i class="fa fa-trash"></i></a></span></td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Benny Uhoranishema</td>
+                        <td><a href="article.html" class="link"> Benny Uhoranishema</a></td>
                         <td>Resolved</td>
-                      <td><span><a href="#"><i class="fa fa-edit"></i></a> | <a href="#"><i class="fa fa-trash"></i></a></span></td>
+                      <td><span><a href="addnew.html"><i class="fa fa-edit"></i></a> | <a id="delete" onclick="actions();"href="#"><i class="fa fa-trash"></i></a></span></td>
                     </tr>
                     <td>4</td>
-                    <td>Benny Uhoranishema</td>
+                    <td><a href="article.html" class="link"> Benny Uhoranishema</a></td>
                     <td>Resolved</td>
-                      <td><span><a href="#"><i class="fa fa-edit"></i></a> | <a href="#"><i class="fa fa-trash"></i></a></span></td>
+                      <td><span><a href="addnew.html"><i class="fa fa-edit"></i></a> | <a id="delete" onclick="actions();"href="#"><i class="fa fa-trash"></i></a></span></td>
                     </tr>
                     <td>5</td>
-                    <td>Benny Uhoranishema</td>
+                    <td><a href="article.html" class="link"> Benny Uhoranishema</a></td>
                     <td>Resolved</td>
-                      <td><span><a href="#"><i class="fa fa-edit"></i></a> | <a href="#"><i class="fa fa-trash"></i></a></span></td>
+                      <td><span><a href="addnew.html"><i class="fa fa-edit"></i></a> | <a id="delete" onclick="actions();"href="#"><i class="fa fa-trash"></i></a></span></td>
                     </tr>
                     <td>6</td>
-                    <td>Benny Uhoranishema</td>
+                    <td><a href="article.html" class="link"> Benny Uhoranishema</a></td>
                     <td>Resolved</td>
-                     
-                      <td><span><a href="#"><i class="fa fa-edit"></i></a> | <a href="#"><i class="fa fa-trash"></i></a></span></td>
+                      <td><span><a href="addnew.html"><i class="fa fa-edit"></i></a> | <a id="delete" onclick="actions();"href="#"><i class="fa fa-trash"></i></a></span></td>
                     </tr>
                     </table>                                
     </div>
   </div> 
 <div class="footer">
             <div class="footer-bottom">
-                &copy; QuickTransferNews.com | Designed by Benny Luhangara
+                &copy; Broadcaster.com | Designed by Benny Luhangara
             </div>
-    </div>    
+    </div>   
+<!-- custom script -->
+<script>
+  const statuses = document.getElementById('delete');
+console.log(statuses);
+function actions(){
+  alert('are you sure you want to delete this?')
+}
+</script>
 </body>
 </html>

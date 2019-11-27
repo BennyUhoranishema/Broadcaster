@@ -17,12 +17,12 @@
 <body>
     <header>
 <div class="logo">
-   <h1 class="logo-text"><span>Quick</span>Transfer<span>News</span></h1>
+   <h1 class="logo-text"><span>Broadcaster</span></h1>
 </div>
 <i class="fa fa-bars menu-toggle"></i>
 <ul class="nav">
     <li><a href="main.html">Home</a></li>
-    <li><a href="redflag.html" class="active">Red Frag</a></li>
+    <li><a href="redflag.html">Red Frag</a></li>
     <li><a href="intervation.html">Intervation</a></li>
     <li>
         <a href="viewall.html">
@@ -37,52 +37,31 @@
 </li>
 </ul>
 </header> 
-<div class="row_redflag">
-    <div class="column1_redflag">
-        <div class="vertical-menu">
-            <a href="redflag.html" class="active">Add new</a>
-           <a href="viewall.html">View Posts</a>
-        </div>
-    </div>
-    <div class="column2_redflag">
+    <div class="column2_redflag"  id="addnew">
         <div class="container">
+          <h2 class="incidenttitle">  Add New Incident</h2>
             <form action="/action_page.php">
             <div class="row">
-              <div class="col-25">
-                <label for="fname">Title</label>
-              </div>
               <div class="col-75">
                 <input type="text" id="fname" name="firstname" placeholder="Title..">
               </div>
             </div>
             <div class="row">
-              <div class="col-25">
-                <label for="lname">Type</label>
-              </div>
               <div class="col-75">
                 <input type="text" id="lname" name="lastname" placeholder="Type..">
               </div>
             </div>
             <div class="row">
-              <div class="col-25">
-                <label for="fname">Comment</label>
-              </div>
               <div class="col-75">
                 <textarea type="text" id="fname" name="firstname" placeholder="Comment.."></textarea>
               </div>
             </div>
             <div class="row">
-              <div class="col-25">
-                <label for="lname">Location</label>
-              </div>
               <div class="col-75">
                 <input type="text" id="lname" name="lastname" placeholder="Location..">
               </div>
             </div>
             <div class="row">
-              <div class="col-25">
-                <label for="fname">Status</label>
-              </div>
               <div class="col-75">
                 <input type="text" id="fname" name="firstname" placeholder="Status..">
               </div>
@@ -103,16 +82,15 @@
                 <input type="file" id="lname" name="lastname" placeholder="Video..">
               </div>
             </div>
-            <div class="row">
+            <div class="row" id="savebutton">
               <input type="submit" value="Save">
             </div>
             </form>
           </div>          
-    </div>
-  </div>        
+    </div>    
 <div class="footer">
             <div class="footer-bottom">
-                &copy; QuickTransferNews.com | Designed by Benny Luhangara
+                &copy; Broadcaster.com | Designed by Benny Luhangara
             </div>
     </div>    
 </body>
